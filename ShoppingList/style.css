@@ -1,0 +1,101 @@
+body {
+    font-family:cursive ;
+}
+
+.container {
+    width: 500px;
+    margin: 30px auto;
+    background: grey;
+    text-align: center;
+    padding: 15px;
+}
+
+h1 {
+    font-size: 3em;
+    text-shadow: 5px 3px 2px #556;
+}
+
+#intro {
+    font-size: 1.1em;
+    color: brown;
+    font-weight: bold;
+}
+
+#userinput {
+    height: 2em;
+    padding: 0 5px;
+}
+
+#userinput:hover {
+    background: black;
+    color: white;
+}
+
+#enter {
+    height: 2em;
+    width: 6em;
+    cursor: pointer;
+    border-radius: 8px;
+    background: lightgrey;
+    font-weight: bold;
+}
+
+#enter:hover {
+    background: black;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+span {
+    font-size: 1.5em;
+    line-height: 1.8em;
+    position: relative;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.delete {
+    border-radius: 35px;
+    cursor: cell;
+    opacity: 0;
+    transition: opacity ease-in-out 500ms;
+}
+
+li:hover .delete {
+    opacity: 1;
+}
+
+#ascendent {
+    margin: 2%;
+    height: 2em;
+    width: 6em;
+    cursor: pointer;
+    border-radius: 8px;
+    background: lightgrey;
+    font-weight: bold;
+}
+
+#descendent {
+    margin: 2%;
+    height: 2em;
+    width: 6em;
+    cursor: pointer;
+    border-radius: 8px;
+    background: lightgrey;
+    font-weight: bold;
+}
+
+#ascendent:hover {
+    background: black;
+    color: white;
+}
+
+#descendent:hover {
+    background: black;
+    color: white;
+}
